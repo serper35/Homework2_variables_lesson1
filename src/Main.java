@@ -8,7 +8,6 @@ public class Main {
         task6();
         task7();
         task8();
-
     }
 
     public static void task1() {
@@ -88,9 +87,9 @@ public class Main {
         var difWeight1 = boxer1 - boxer2;
         System.out.println();
         if (boxer1 > boxer2)
-            System.out.println("Задача №7\n" + "Разница в весе (способ 1) = " + Math.abs(difWeight1) + " кг;\n" + "Разница в весе (способ 2 ) = " + boxer1 % boxer2 + " кг.");
+            System.out.println("Задача №7\n" + "Разница в весе (способ 1) = " + Math.abs(difWeight1) + " кг;\n" + "Разница в весе (способ 2 ) = " + boxer1 % boxer2 + " кг!");
 
-        else System.out.println("Задача №7\n" + "Разница в весе (способ 1) = " + Math.abs(difWeight1) + " кг;\n" + "Разница в весе (способ 2 ) = " + boxer2 % boxer1 + " кг.");
+        else System.out.println("Задача №7\n" + "Разница в весе (способ 1) = " + Math.abs(difWeight1) + " кг;\n" + "Разница в весе (способ 2 ) = " + boxer2 % boxer1 + " кг!");
     }
 
     public static void task8() {
